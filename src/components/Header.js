@@ -1,5 +1,5 @@
 import React from 'react';
-
+import pdf from '../components/Uma Maheswari .pdf'
 const Header = () => {
   return (
     <nav className='space-x-10'>
@@ -15,7 +15,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href='./Resume - Uma Maheswari.pdf' target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
+          <a href={pdf} target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
             Resume
           </a>
         </li>
