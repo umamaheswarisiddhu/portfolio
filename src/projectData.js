@@ -1,28 +1,36 @@
 const projects = [
-  {
-    title: 'MERN eCommerce',
-    image: './images/rn-mockup',
-    description: 'Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.',
-    tools: ['React', 'Redux', 'MongoDB', 'JWT', 'Express'],
-    github: 'https://github.com/umamaheswarisiddhu/react-node-ecommerce',
-    link: 'https://rn-store.herokuapp.com/',
-  },
-  {
-    title: 'Movie App',
-    image: './images/tmdb-mockup',
-    description: 'Discover the most popular, top rated and latest movies. Users can also find a movie based on the movie title.',
-    tools: ['React', 'API', 'SASS'],
-    github: 'https://github.com/umamaheswarisiddhu/react-tmdb-app',
-    link: 'https://festive-wilson-a51c32.netlify.app/',
-  },
-  {
-    title: 'Recipe Finder',
-    image: './images/recipeApp-mockup',
-    description: 'Browse recipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.',
-    tools: ['Javascript', 'API'],
-    github: 'https://github.com/umamaheswarisiddhu/RecipesFinder',
-    link: 'https://practical-archimedes-a61091.netlify.app/',
-  },
-];
-
-export default projects;
+    {
+      title: 'MERN eCommerce',
+      image: './images/makeup',
+      description: 'Full featured ecommerce store built with MERN stack and stripe payments API. Admin page to manage customers, products & orders.',
+      tools: ['React', 'Redux', 'MongoDB', 'JWT', 'Express'],
+      github: 'https://github.com/umamaheswarisiddhu/MERN-Ecomerce',
+      link: 'https://mern-ecormerce.netlify.app/',
+    },
+    {
+      title: 'pizza delivery',
+      image: './images/pizza',
+      description: 'Discover the most popular, top rated and tasty pizza. Users can also find a  based on the some catagory.',
+      tools: ['React','MongoDB','Express'],
+      github: 'https://github.com/umamaheswarisiddhu/pizza-delivery-client',
+      link: 'https://pizzadeliveryapphunt.netlify.app/best-seller',
+    },
+    {
+      title: 'Rental car',
+      image: './images/carrental',
+      description: 'These apps help the users place their booking order on the app and get notifications giving them information on the details of the car and the timings',
+      tools: ['REACTjs','EXPRESSjs','NODEjs','Mongodb'],
+      github: 'https://github.com/umamaheswarisiddhu/rental-car/tree/main/Rentify-main',
+      link: 'https://rentalcarr.netlify.app/',
+    },
+    {
+      title: 'blogger',
+      image: './images/blog',
+      description: 'The Blogger mobile app allows you to post, edit, save, and view your blog posts.To post with the Blogger mobile app',
+      tools: ['REACTjs','EXPRESSjs','NODEjs','Mongodb'],
+      github: 'https://github.com/umamaheswarisiddhu/blogger-client',
+      link: 'https://umabloggerapp.netlify.app/',
+    },
+  ];
+  
+  export default projects;
