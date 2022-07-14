@@ -13,9 +13,9 @@ const Project = () => {
         <div className='my-7 space-y-24'>
           {projects.map((project, index) => (
             <article className='flex flex-wrap md:justify-between md:items-center' key={index}>
-              <picture className={index % 2 === 0 ? 'w-full md:w-6/12 shadow-lg ' : 'w-full md:w-6/12 shadow-lg md:order-1'}>
+             <picture className={index % 2 === 0 ? 'w-full md:w-6/12 shadow-lg ' : 'w-full md:w-6/12 shadow-lg md:order-1'}>
              
-              </picture>
+             </picture>
               <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 '>
                 <h3 className='uppercase font-bold text-lg'>{project.title}</h3>
                 <p>{project.description}</p>
