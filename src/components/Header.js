@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../components/UMARESUME .pdf'
+import pdf from '../components/UMARESUME.pdf';
 const Header = () => {
   return (
     <nav className='space-x-10'>

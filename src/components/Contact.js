@@ -19,7 +19,7 @@ const Contact = () => {
           
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
-              <a href='https://www.linkedin.com/in/umamaheshwari-thangavel-ab6058224/' target='_blank' rel='noreferrer'>
+              <a href='https://www.linkedin.com/in/umamaheshwari-thangavel/' target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                   <img src='./images/icons/linkedin.svg' alt='' width='24px' height='24px' className='mr-1' />
                   LinkedIn
